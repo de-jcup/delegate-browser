@@ -1,0 +1,8 @@
+IE-urlparts.txt
+.gradle/
+.classpath
+.project
+.settings/
+*.log
+
+
