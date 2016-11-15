@@ -12,9 +12,13 @@ the lines inside this config file the IE will be called. Otherwise Firefox.
 
 Prerequisites:
 --------------
-1. You have to checkout delegate-browser git hub project into C:\ so current folder is C:\delegate-browser\
-2. Its absolutely necessary to have a installed git bash which is part of PATH variable because the scripts uses batch + bash
-3. Its also necessary that you have administrator rights, because you will have to import 3 registry entries via regedit...
+1. Its absolutely necessary to have a installed git bash which is part of PATH variable because the scripts uses batch + bash
+2. Its also necessary that you have administrator rights, because you will have to import 3 registry entries via regedit...
+3. You have to clone the "delegate-browser" git hub project exactly into C:\ so
+ - git clone https://github.com/de-jcup/delegate-browser.git
+ - so c:/delegate-browser is created
+4.Rename c:/delegate-browser/IE-urlparts-example.txt to IE-c:/delegate-browser/IE-urlparts.txt and change/add patterns 
+  for internet explorer calls
 
 How To:
 -------
