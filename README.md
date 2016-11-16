@@ -19,7 +19,7 @@ Prerequisites:
   - execute "cd /c"
   - git clone https://github.com/de-jcup/delegate-browser.git
   - check c:/delegate-browser is created
-- Rename c:/delegate-browser/IE-urlparts-example.txt to IE-c:/delegate-browser/IE-urlparts.txt and change/add patterns 
+- Rename c:/delegate-browser/IE-urlparts-example.txt to c:/delegate-browser/IE-urlparts.txt and change/add patterns 
   for internet explorer calls
 
 How To:
