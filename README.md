@@ -16,7 +16,7 @@ Prerequisites:
 - Its also necessary that you have administrator rights, because you will have to import 3 registry entries via regedit...
 - You have to clone the "delegate-browser" git hub project exactly into C:\ so do following
   - open git bash
-  - cal "cd /c"
+  - execute "cd /c"
   - git clone https://github.com/de-jcup/delegate-browser.git
   - check c:/delegate-browser is created
 - Rename c:/delegate-browser/IE-urlparts-example.txt to IE-c:/delegate-browser/IE-urlparts.txt and change/add patterns 
