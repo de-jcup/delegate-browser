@@ -12,10 +12,10 @@ while read p; do
  if [[ $1 == *"${p}"* ]]
 	then
 	browser="IE"
-	echo -- IE found!
+	echo -- use internet explorer
+	break
  fi
 done <./../IE-urlparts.txt
-echo - IE done
 
 ./callBrowser.sh $browser $url
 
